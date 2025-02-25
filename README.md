@@ -1,5 +1,19 @@
-# MiddleProjectGroup_21
+# 云枢论坛
 
+## 项目简介
+云枢论坛是一个基于Vue.js和Golang的前后端分离项目，前端使用Vue.js框架，后端使用Golang语言，数据库使用mysql，图片存储在阿里云OSS中。项目实现了用户注册、登录、发帖、评论、点赞、查看帖子、查看用户信息等功能。
+
+## 项目展示
+### 首页
+![image](img/home.png)
+### 登录
+![image](img/login.png)
+### 发帖
+![image](img/new.png)
+### 个人中心
+![image](img/pinfo.png)
+### 管理员界面
+![image](img/admin.png)
 
 ## 后端配置：
 
@@ -15,8 +29,8 @@ setx OSS_ACCESS_KEY_SECRET "YOUR_ACCESS_KEY_SECRET"
 运行 运行后端代码需配置go的相关环境，在项目文件夹cmd目录下打开终端，使用“go run .”命令即可运行后端。
 测试
 
-前端配置：
-## 环境配置
+## 前端配置：
+### 环境配置
 进入project文件夹并运行
 ```
 npm install
